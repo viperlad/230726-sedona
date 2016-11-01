@@ -17,6 +17,9 @@
               <a href="#">Фото и видео</a>
             </li>
             <li>
+              <a href="#">City of Sedona</a>
+            </li>
+            <li>
               <a href="#">Карта штата</a>
             </li>
             <li>
@@ -28,14 +31,12 @@
     </header>
     <main class="container">
       <section class="intro">
-        <p>WELCOME<br><span>to the gorgeous</span></p>
         <div class="index-logo">
           <img src="http://placehold.it/150x100" alt="SEDONA">
         </div>
-        <p>Because the Grand<br>Canyon sucks!</p>
       </section>
       <section class="five-reasons">
-        <b>Седона - небольшой городок в Аризоне,<br>заслуживающий большего!</b>
+        <h2>Седона - небольшой городок в Аризоне,заслуживающий большего!</h2>
         <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон</p>
         <section class="reason"> <!--там будет ниже похожий блок, высоту можно назначить с помощтю одного класса-->
           <div class="promo-block">
@@ -87,9 +88,27 @@
         </section>
       </section>
       <section class="choosing">
-        <!--здесь вроде два, а вроде три больших блока, не понимаю, что есть карта-->
+        <h2>Заинтересовались?</h2>
+        <p>Укажите предполагаемые даты поездки,
+           и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        <div class="container-form">
+           <div class="header-form">
+             <b>Поиск гостиницы в седоне</b>
+           </div>
+           <form action="#" method="get">
+             <label for="date-in">Дата заезда:</label>
+               <input id="date-in" type="date" name="date-in" value="24.04.2016"> <!--или брать тип текст?-->
+             <label for="date-in">Дата выезда:</label>
+               <input id="date-out" type="date" name="date-out" valut="04.07.2016">
+             <label for="growen-ups">Взрослые</label>
+               <input id="growen-ups" type="number" name="growen-ups" vault="2">
+             <label for="children">Дети</label>
+               <input id="children" type="number" name="children" vault="0">
+             <button class="btn" type="submit">Найти</button>
+           </form>
+           <img src="http://placehold.it/150x100" alt="Типа карта на фоне">
+        </div>
       </section>
-
     </main>
     <footer class="main-footer">
       <div class="container">
@@ -97,9 +116,9 @@
           <b>#visitsedona</b>
         </section>
         <section class="footer-social">
-          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+          <a class="social-btn social-btn-tw" href="#">Твиттер</a>
           <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+          <a class="social-btn social-btn-yt" href="#">Youtube</a>
         </section>
         <section class="footer-copyright">
           <span>website by</span>
@@ -107,6 +126,5 @@
         </section>
       </div>
     </footer>
-
   </body>
 </html>
