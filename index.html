@@ -1,9 +1,11 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-index.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
@@ -36,13 +38,13 @@
         </div>
       </section>
       <section class="five-reasons">
-        <h2>Седона - небольшой городок в Аризоне, заслуживающий большего!</h2>
-        <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон</p>
+        <h2>Седона &mdash; небольшой городок в Аризоне, заслуживающий большего!</h2>
+        <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
         <section class="reason"> <!--там будет ниже похожий блок, высоту можно назначить с помощтю одного класса-->
-          <div class="promo-block">
-            <b>Настоящий городок</b>
-            <span>№1</span>
-            <p>Седоне - не аттракцион для туристов, там течет своя жизнь</p>
+            <div class="promo-block">
+            <b>Настоящий городок</b> 
+            <span>&mdash; №1 &mdash;</span>
+          	<p>Седона &mdash; не аттракцион для туристов, там течет своя жизнь</p>
           </div>
           <img src="img/5.jpg" alt="Фотография 1"> <!--здесь будет фоточка справа от промоблока-->
         </section>
@@ -65,49 +67,52 @@
           <img src="img/2.jpg" alt="Фотография 2">
           <div class="promo-block">
             <b>Там есть мост дьявола</b>
-            <span>№2</span>
+            <span>&mdash; №2 &mdash;</span>
             <p>Да, по нему можно пройти! Если конечно<br>вы осмелитесь</p>
           </div>
         </section>
-        <section class="features-second">
+        <section class="features-second clearfix">
           <div class="promo-block">
             <b>Небольшая площадь</b>
-            <span>№3</span>
+            <span>&mdash; №3 &mdash;</span>
             <p>Все достопримечательнсоти находятся очень близко</p>
           </div>
           <div class="promo-block">
             <b>Красивая дорога</b>
-            <span>№4</span>
+            <span>&mdash; №4 &mdash;</span>
             <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </div>
           <div class="promo-block">
             <b>Мало туристов</b>
-            <span>№5</span>
+            <span>&mdash; №5 &mdash;</span>
             <p>Большинство едет в Гранд Каньон и толпится там</p>
           </div>
         </section>
       </section>
       <section class="choosing">
-        <b>Заинтересовались?<b>
-        <p>Укажите предполагаемые даты поездки,
+		    <b>Заинтересовались?</b>
+        <p>Укажите предполагаемые даты поездки,<br>
            и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         <div class="container-form">
            <div class="header-form">
              <b>Поиск гостиницы в седоне</b>
            </div>
+           <div class="former">
            <form action="#" method="get">
              <label for="date-in">Дата заезда:</label>
-               <input id="date-in" type="date" name="date-in" value="2016-04-24"> <!--или брать тип текст?-->
+               <input id="date-in" type="date" name="date-in" value="2016-04-24"><br><!--или брать тип текст?-->
              <label for="date-in">Дата выезда:</label>
-               <input id="date-out" type="date" name="date-out" value="2016-07-04">
+               <input id="date-out" type="date" name="date-out" value="2016-07-04"><br>
              <label for="growen-ups">Взрослые</label>
                <input id="growen-ups" type="number" name="growen-ups" value="2">
              <label for="children">Дети</label>
-               <input id="children" type="number" name="children" value="0">
+               <input id="children" type="number" name="children" value="0"><br>
              <button class="btn" type="submit">Найти</button>
            </form>
+			</div>
         </div>
       </section>
+      <img src="img/map.jpg" alt="Map">
     </main>
     <footer class="main-footer">
       <div class="container">
