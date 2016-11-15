@@ -20,3 +20,50 @@ a {
 	color: black;
 	font-weight: bold;
 }
+
+.main-header {
+  min-height: 56px;
+}
+
+.container {
+  width: 1200px;
+  padding: 0px 40px;
+  margin: 0 auto;
+}
+
+.main-navigation {
+  margin: 0 auto;
+  height: 56px;
+ }
+
+.main-navigation ul {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+.main-navigation ul li {
+  display: inline-block;
+  width: 20%;
+  letter-spacing: normal;
+  font-size: 14px;
+  height: 56px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.main-navigation ul li:nth-child(3) img {
+  margin-bottom: -14px;
+}
+
+.main-navigation ul li a {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 56px;
+}
+
+.main-footer {
+	opacity: 0.9;
+	height: 120px;
+	background-color: white;
+}
