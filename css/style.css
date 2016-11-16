@@ -48,7 +48,7 @@ a {
   letter-spacing: normal;
   font-size: 14px;
   height: 56px;
-  vertical-align: middle;
+  vertical-align: top;
   text-align: center;
 }
 
@@ -58,8 +58,8 @@ a {
 
 .main-navigation ul li a {
 	display: inline-block;
-	vertical-align: middle;
 	line-height: 56px;
+	margin: 0 auto;
 }
 
 .main-footer {

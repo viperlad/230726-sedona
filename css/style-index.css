@@ -41,14 +41,14 @@ height: 432px;
 
 .promo-block, .reason img {
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: top;
 	height: 256px;
 }
 
 .promo-block {
 	display: inline-block;
 	width: 400px;
-	vertical-align: middle;
+	vertical-align: top;
 	line-height: 21px;
 }
 
@@ -90,8 +90,8 @@ height: 432px;
 .features-item {
 	display: inline-block;
 	width: 400px;
-	vertical-align: middle;
-	height: 330px;
+	vertical-align: top;
+	min-height: 330px;
 }
 
 .features-item::before {
@@ -135,7 +135,7 @@ height: 432px;
 
 .features-second {
 	font-size: 0;
-	height: 256px;
+	min-height: 256px;
 	background-color: #eeeeee;
 }
 
