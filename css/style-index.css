@@ -4,6 +4,13 @@ padding-top: 76px;
 height: 432px;
 }
 
+.intro::after {
+ content: "";
+ display: block;
+ background: url("../img/Shape 1 copy 3.png");
+ height: 57px;
+}
+
 .five-reasons {
 	padding-top: 42px;
 }
