@@ -1,11 +1,173 @@
 .searching {
-	min-height: 217px;
+	min-height: 176px;
+	background-image: url("../img/catalog/filter_background.jpg");
+	background-color: #81b3d2;
+	color: white;
+	padding: 12px 73px 30px 73px; 
 }
 
+.settings h2, .settings label {
+	font-size: 16px;
+	letter-spacing: 0.02em;
+}
+
+.infrastructure, .type-of-house {
+	float: left;
+	width: 253px;
+}
+
+.infrastructure h2, .type-of-house h2 {
+	margin-bottom: 25px;
+}
+
+.infrastructure div, .type-of-house div {
+	margin-top: 20px;
+}
+.infrastructure {
+}
+
+.type-of-house {
+}
+
+.cost-day {
+	float: right;
+}
+
+.cost-day .btn {
+	width: 135px;
+	background: transparent;
+	border: 2px solid white;
+	height: 35px;
+	color: white;
+	font-size: 14px;
+	text-transform: uppercase;
+	border-radius: 2px;
+}
 .header-of-searching {
-	min-height: 86px;
+	min-height: 26px;
+	padding: 30px 73px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.header-of-searching b, .grading {
+	float: left;
+}
+
+.up-down {
+	float: right;
+}
+
+.up, .down {
+  width: 0;
+  height: 0;
+  border: 7px solid transparent; 
+  display: inline-block;
+}
+
+.up {
+  border-bottom-color: #cccccc;  
+  border-top: 0;
+  margin-right: 7px;
+}
+
+.down {
+  border-bottom-color: #cccccc;  
+  border-top: 0;
+  transform: rotate(180deg)
+}
+
+.up-down .selected {
+	border-bottom-color: #81b3d2;
+}
+
+
+.header-of-searching b {
+	font-size: 21px;
+	margin-right: 45px;
+}
+
+.grading {
+	font-size: 12px;
+	margin-top: 7px;
+}
+
+.grading span {
+	margin-right: 40px;
+}
+
+.grading a {
+	margin-right: 30px;
+}
+
+.option {
+	border-bottom: 0.1em dotted #81b3d2;
+	color: #b1b1b1;
+}
+
+.grading .selected {
+	color: #81b3d2;
+	border: none;
 }
 
 .result {
-	min-height: 152px;
+	min-height: 100px;
+	border-bottom: 1px solid #e5e5e5;
+	padding: 25px 73px; 
+}
+
+.result img {
+	margin-top: 5px;
+}
+
+.result h2 {
+	margin: 0;
+}
+
+.information span {
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 35px;
+	font-size: 14px;
+}
+
+.btns {
+	margin-top: 15px;
+}
+
+.information .btn {
+	display: inline-block;
+	text-align: center;
+	height: 27px;
+	vertical-align: middle;
+	line-height: 27px;
+	color: white;
+	font-size: 14px;
+}
+
+.more-info {
+	width: 110px;
+	background: #81b3d2;	
+}
+
+.book {
+	width: 142px;
+	background: #766357;
+}
+
+.result>img, .information {
+	float: left;
+}
+
+.information {
+	margin-left: 30px;
+}
+.rating {
+	float: right;
+}
+.rating span {
+	width: 110px;
+	line-height: 27px;
+	display: block;
+	background: #f2f2f2;
+	text-align: center;
 }

@@ -2,6 +2,7 @@ body {
   font-family: "PT Sans";
   text-transform: uppercase;
   margin: 0;
+  background: #f1f1f1;
 }
 
 h1 {
@@ -21,25 +22,31 @@ a {
 	font-weight: bold;
 }
 
+section {
+	background: white;
+}
+
 .main-header {
   min-height: 56px;
 }
 
 .container {
   width: 1200px;
-  padding: 0px 40px;
   margin: 0 auto;
+  box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.15);
 }
 
 .main-navigation {
   margin: 0 auto;
   height: 56px;
+  position: relative;
  }
 
 .main-navigation ul {
   margin: 0;
   padding: 0;
   font-size: 0;
+  background: white;
 }
 
 .main-navigation ul li {
@@ -52,8 +59,9 @@ a {
   text-align: center;
 }
 
-.main-navigation ul li:nth-child(3) img {
-  margin-bottom: -14px;
+.header-logo {
+	position:absolute;
+	left: 531px;
 }
 
 .main-navigation ul li a {
@@ -62,8 +70,71 @@ a {
 	margin: 0 auto;
 }
 
-.main-footer {
+.main-footer .container {
 	opacity: 0.9;
 	height: 120px;
 	background-color: white;
+	font-size: 0;
+}
+.main-footer section {
+	display: inline-block;
+	width: 400px;
+	font-size: 21px;
+	min-height: 120px;
+	vertical-align: top;
+	text-align: center;
+
+}
+
+.tag strong {
+	line-height: 120px;
+	vertical-align: middle;
+}
+
+.social-btn {
+	display: inline-block;
+	width: 46px;
+	height: 48px;
+	font-size: 0;
+	vertical-align: middle;
+	text-decoration: none;
+	background: #81b3d2 url("../img/sprite-1.png");
+	margin-top: 36px;
+}
+
+.social-btn-tw {
+	background-position: -2px 0;
+}
+
+.social-btn-fb {
+	background-position: -57px 0;
+}
+
+.social-btn-yt {
+	background-position: -118px 0;
+}
+
+.common-copyright {
+	line-height: 120px;
+	vertical-align: middle;
+}
+
+.common-copyright span{
+	font-size: 14px;
+}
+
+.common-copyright .btn {
+	display: inline-block;
+	font-size: 0;
+	width: 113px;
+	height: 39px;
+	vertical-align: middle;
+	background: url("../img/htmlacademy.png");
+	
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }

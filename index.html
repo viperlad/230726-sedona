@@ -19,8 +19,8 @@
               <a href="#">Фото и видео</a>
             </li>
             <li>
-              <a href="#"><img src="img/3.png" alt="City of Sedona"></a>
-            </li>
+             <img src="img/3.png" alt="City of Sedona" class="header-logo">
+			</li>
             <li>
               <a href="#">Карта штата</a>
             </li>
@@ -60,7 +60,7 @@
           </div>
           <div class="features-item">
             <b>Сувениры</b>
-            <p>Не только китайского, но и местного производства</p>
+            <p>Не только китайского, но и местного производства!</p>
           </div>
         </section>
         <section class="reason">
@@ -68,7 +68,8 @@
           <div class="promo-block">
             <b>Там есть мост дьявола</b>
             <span>&mdash; №2 &mdash;</span>
-            <p>Да, по нему можно пройти! Если конечно<br>вы осмелитесь</p>
+            <p>Да, по нему можно пройти! Если конечно<br>
+              вы осмелитесь&nbsp;</p>
           </div>
         </section>
         <section class="features-second clearfix">
@@ -80,7 +81,7 @@
           <div class="promo-block">
             <b>Красивая дорога</b>
             <span>&mdash; №4 &mdash;</span>
-            <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+            <p>Ехать в Седону из Лас-Вегаса совсем не скучно!&nbsp;</p>
           </div>
           <div class="promo-block">
             <b>Мало туристов</b>
@@ -99,15 +100,23 @@
            </div>
            <div class="former">
            <form action="#" method="get">
+            <div class="date-in">
              <label for="date-in">Дата заезда:</label>
                <input id="date-in" type="date" name="date-in" value="2016-04-24"><br><!--или брать тип текст?-->
-             <label for="date-in">Дата выезда:</label>
-               <input id="date-out" type="date" name="date-out" value="2016-07-04"><br>
-             <label for="growen-ups">Взрослые</label>
-               <input id="growen-ups" type="number" name="growen-ups" value="2">
-             <label for="children">Дети</label>
-               <input id="children" type="number" name="children" value="0"><br>
-             <button class="btn" type="submit">Найти</button>
+			</div>
+            <div class="date-out">
+             <label for="date-out">Дата выезда:</label>
+               <input id="date-out" type="date" name="date-out" value="2016-07-04">
+			</div>
+            <div class="growen-ups">
+              <label for="growen-ups">Взрослые:</label>
+              <input id="growen-ups" type="number" name="growen-ups" value="2">
+			</div>
+            <div class="children">
+              <label for="children">Дети:</label>
+              <input id="children" type="number" name="children" value="0"><br>
+			</div>
+             <button class="btn find" type="submit">Найти</button>
            </form>
 			</div>
         </div>
@@ -116,17 +125,17 @@
     </main>
     <footer class="main-footer">
       <div class="container">
-        <section class="tag">
-          <b>#visitsedona</b>
-        </section>
+        <section class="tag"><strong>#visitsedona</strong></section>
         <section class="footer-social">
           <a class="social-btn social-btn-tw" href="#">Твиттер</a>
           <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
           <a class="social-btn social-btn-yt" href="#">Youtube</a>
         </section>
         <section class="footer-copyright">
+         <div class="common-copyright">
           <span>website by</span>
           <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+	     </div>
         </section>
       </div>
     </footer>

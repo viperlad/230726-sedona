@@ -1,5 +1,6 @@
 .intro {
 background-image: url('../img/1.jpg');
+background-position: 0 -55px;
 padding-top: 76px;
 height: 432px;
 }
@@ -7,8 +8,11 @@ height: 432px;
 .intro::after {
  content: "";
  display: block;
- background: url("../img/Shape 1 copy 3.png");
+ background: url("../img/Shape_1_copy_3.png");
  height: 57px;
+ position: absolute;
+ width: 1200px;
+ top: 507px;
 }
 
 .five-reasons {
@@ -21,6 +25,7 @@ height: 432px;
 
 .five-reasons > p {
 	margin-top: 33px;
+	margin-bottom: 55px;
 }
 
 .five-reasons h2,
@@ -38,18 +43,17 @@ height: 432px;
 .five-reasons p {
 	text-align: center;
 	font-size: 14px;
-	margin-bottom: 57px;
 }
 
 .reason {
 	font-size: 0;
-	height: 256px;
+	min-height: 256px;
+	background-color: #81b3d2;
 }
 
 .promo-block, .reason img {
 	display: inline-block;
 	vertical-align: top;
-	height: 256px;
 }
 
 .promo-block {
@@ -64,7 +68,7 @@ height: 432px;
 	font-size: 21px;
 	text-align: center;
 	width: 151px;
-	margin: 52px auto 0 auto;
+	margin: 55px auto 0 auto;
 	
 }
 
@@ -78,11 +82,10 @@ height: 432px;
 .promo-block p {
 	font-size: 14px;
 	width: 307px;
-	margin-top: 22px;
+	margin-top: 20px;
    }
 
 .reason .promo-block {
-	background-color: #81b3d2;
 	color: white;
 }
 
@@ -91,7 +94,7 @@ height: 432px;
 }
 
 .first-features {
-	height: 330px;
+	min-height: 330px;
 	font-size: 0;
 }
 .features-item {
@@ -108,7 +111,7 @@ height: 432px;
 	height: 75px;
 	background-repeat: no-repeat;
 	background-position: bottom;
-	margin: 55px auto 28px auto;
+	margin: 57px auto 28px auto;
 }
 
 .features-item:nth-child(1)::before {
@@ -147,7 +150,7 @@ height: 432px;
 }
 
 .features-second b {
-	margin-top: 45px;	
+	margin-top: 48px;	
 }
 
 .features-second p {
@@ -201,12 +204,77 @@ height: 432px;
 .container-form .former {
 	display: block;
 	background: white;
-	height: 395px;	
+	min-height: 395px;
+	box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.15);
 }
 
 .former form {
 	padding-top: 55px;
 	padding-left: 55px;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 0.02em;
+}
+
+.former label {
+
+}
+
+.former input {
+	height: 38px;
+	background-color: #f2f2f2;
+	border: none;
+	font: inherit;
+	padding-left: 13px;
+}
+
+.date-in {
+	margin-bottom: 29px;
+}
+.date-in input {
+	margin-left: 18px;
+	width: 332px;
+}
+
+.date-out input {
+	margin-left: 15px;
+	width: 332px;
+}
+
+.growen-ups input {
+	margin-left: 37px;
+	width: 100px;
+}
+
+.children input {
+	margin-left: 25px;
+	width: 100px;
+}
+
+.date-out {
+	margin-bottom: 29px;
+}
+
+.growen-ups, .children {
+	display: inline-block;
+	margin-bottom: 54px;
+}
+
+.children {
+	margin-left: 50px;
+}
+
+.find {
+	display: block;
+	width: 458px;
+	height:58px;
+	font-family: inherit;
+	text-transform: inherit;
+	font-weight: inherit;
+	font-size: 21px;
+	color: white;
+	background: #81b3d2;
+	border: none;
 }
 
 .map {
