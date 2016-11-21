@@ -221,7 +221,7 @@ height: 432px;
 }
 
 .former input {
-	height: 38px;
+	height: 37px;
 	background-color: #f2f2f2;
 	border: none;
 	font: inherit;
@@ -236,23 +236,81 @@ height: 432px;
 	width: 332px;
 }
 
+.date-out {
+	margin-bottom: 29px;
+}
+
 .date-out input {
 	margin-left: 15px;
 	width: 332px;
 }
 
+.quanity {
+	position: relative;
+}
+
+.btn-down {
+	display: inline-block;
+	width: 37px;
+	height: 37px;
+	position: absolute;
+	border: none;
+	z-index: 200;
+	line-height: 37px;
+	right: 76px;
+	top: 1px;
+	cursor: pointer;
+	background: no-repeat url("../img/minus.png");
+	background-position: center;
+}
+
+.btn-down:hover {
+	background-image: url("../img/minus_hover.png");
+}
+
+.btn-down:active {
+	background-image: url("../img/minus_down.png");
+}
+
+.btn-up {
+	display: inline-block;
+	width: 37px;
+	height: 37px;
+	position: absolute;
+	z-index: 200;
+	line-height: 37px;
+	right: 0px;
+	top: 1px;
+	cursor: pointer;
+	border: none;
+	background: no-repeat url("../img/plus.png");
+	background-position: center;
+}
+
+.btn-up:hover {
+	background-image: url("../img/plus_hover.png");
+}
+
+.btn-up:active {
+	background-image: url("../img/plus_down.png");
+}
+
 .growen-ups input {
-	margin-left: 37px;
+	margin-left: 36px;
 	width: 100px;
+	text-align: center;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 }
 
 .children input {
 	margin-left: 25px;
 	width: 100px;
-}
-
-.date-out {
-	margin-bottom: 29px;
+	text-align: center;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 }
 
 .growen-ups, .children {
@@ -261,7 +319,13 @@ height: 432px;
 }
 
 .children {
-	margin-left: 50px;
+	margin-left: 48px;
+}
+
+.quanity input[type=number]::-webkit-inner-spin-button, .quanity input[type=number]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+appearance: none;
+margin: 0;
 }
 
 .find {
@@ -275,6 +339,16 @@ height: 432px;
 	color: white;
 	background: #81b3d2;
 	border: none;
+	cursor: pointer;
+}
+
+.find:hover {
+	background-color: #669ec0;
+}
+
+.find:active {
+	background-color: #5496bd;
+	color: #88b6d1;
 }
 
 .map {

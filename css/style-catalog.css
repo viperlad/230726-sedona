@@ -38,25 +38,18 @@
 	font-size: 14px;
 }
 
-.checkbox:not(checked) + label::before {
-  content: '';
-  position: absolute;
-  top: -2px;
-  left: -1px;
-  width: 17px;
-  height: 17px;
-  border-radius: 4px;
-  background: transparent;
-  border: 2px solid white;
-}
-
-.checkbox:checked+label::before {
-	content: "";
+.checkbox:not(checked) + label::after {
+ 	content: "";
 	display: block;
 	position: absolute;
-	width: 17px;
-	height: 17px;
+	width: 25px;
+	height: 25px;
 	top: -2px;
+	left: -1px;
+  	background: no-repeat url("../img/catalog/not_checked.png");
+}
+
+.checkbox:checked+label::after {
 	background: no-repeat url("../img/catalog/checked.png");
 }
 
