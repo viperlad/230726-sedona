@@ -13,7 +13,7 @@
         <nav class="main-navigation">
           <ul>
             <li>
-              <a href="#">Информация</a>
+              <a href="index.html">Информация</a>
             </li>
             <li>
               <a href="#">Фото и видео</a>
@@ -25,7 +25,7 @@
               <a href="#">Карта штата</a>
             </li>
             <li>
-              <a href="catalog.html">Гостиницы</a>
+              <a href="catalog.html" class="active">Гостиницы</a>
             </li>
           </ul>
         </nav>
@@ -36,33 +36,33 @@
          <form action="#" method="get" class="settings">
          <div class="inside-form clearfix">
           <div class="infrastructure">
-             <h2>Инфраструктура</h2>
-             <div class="pool">	
+            <h2>Инфраструктура:</h2>
+            <div class="pool">	
+            		<input name="pool" type="checkbox" class="checkbox" id="pool" checked>
              		<label for="pool">Бассейн</label>
-              		<input id="pool" type="checkbox" name="pool" checked>
              </div>
              <div class="parking">
+              		<input name="parking" type="checkbox" class="checkbox" id="parking">
              		<label for="parking">Парковка</label>
-              		<input id="parking" type="checkbox" name="parking">
               </div>
               <div class="wi-fi">
+              		<input name="wi-fi" type="checkbox" class="checkbox" id="wi-fi">
              		<label for="wi-fi">Wi-fi</label>
-              		<input id="wi-fi" type="checkbox" name="wi-fi">
 			  </div>
           </div>
           <div class="type-of-house">
-            <h2>Тип жилья</h2>
+            <h2>Тип жилья:</h2>
             <div class="hotel">
+             	<input name="hotel" type="checkbox" class="checkbox" id="hotel" checked>
             	<label for="hotel">Гостиница</label>
-             	<input id="hotel" type="checkbox" name="hotel" checked>
 		    </div>
             <div class="motel">
+             	<input name="motel" type="checkbox" class="checkbox" id="motel" checked>
             	<label for="motel">Мотель</label>
-             	<input id="motel" type="checkbox" name="motel" checked>
 			</div>
             <div class="apartments">
+             	<input name="apartments" type="checkbox" class="checkbox" id="apartments" checked>
             	<label for="apartments">Апартаменты</label>
-             	<input id="apartments" type="checkbox" name="apartments" checked>
 			</div>
           </div>
           <div class="cost-day">
@@ -78,13 +78,13 @@
           <b>Найдено: 3</b>
           <div class="grading">
             <span>Сортировка:</span>
-            <a class="selected option" href="#">По цене</a>
+            <a class="option active" href="#">По цене</a>
             <a class="option" href="#">По типу</a>
             <a class="option" href="#">По рейтингу</a>
           </div>
           <div class="up-down">
 			  <a class="up" href="#"></a>
-			  <a class="down selected" href="#"></a>
+			  <a class="down active" href="#"></a>
           </div>
          </div>
          <article class="result clearfix">

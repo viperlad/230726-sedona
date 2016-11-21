@@ -64,10 +64,30 @@ section {
 	left: 531px;
 }
 
-.main-navigation ul li a {
+.main-navigation a {
 	display: inline-block;
 	line-height: 56px;
 	margin: 0 auto;
+}
+
+.main-navigation a:hover {
+	color: #9ac2db;
+}
+
+.main-navigation a:active {
+	color: #b2b2b2;
+}
+
+.main-navigation a.active {
+	color: #766357;
+}
+
+.main-navigation a.active:hover {
+	color: #604e43;
+}
+
+.main-navigation a.active:active {
+	color: #d6d0cc;
 }
 
 .main-footer .container {
