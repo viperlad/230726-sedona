@@ -227,9 +227,25 @@ height: 432px;
 	background: #ebebeb;
 }
 
-.former input:focus {
-	background: none;
-	outline: 2px solid e5e5e5;
+.date-in, .date-out {
+	position: relative;
+}
+.calendar {
+	position: absolute;
+	width: 37px;
+	height: 37px;
+	background: no-repeat url("../img/calendar.png") center;
+	top: 0;
+	right: 55px;
+	cursor: pointer;
+}
+
+.calendar:hover {
+	background-image:  url("../img/calendar_hover.png");
+}
+
+.calendar:active {
+	background-image: url("../img/calendar_active.png")
 }
 
 .date-in {
@@ -302,6 +318,7 @@ height: 432px;
 
 .children label {
 	margin-right: 20px;
+	
 }
 
 .quanity input {
@@ -350,5 +367,10 @@ margin: 0;
 
 .map {
 	margin-bottom: -120px;
+}
+
+.former input:focus {
+	background: none;
+	outline: 2px solid #e5e5e5;
 }
 

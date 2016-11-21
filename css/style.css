@@ -185,3 +185,7 @@ section {
   display: table;
   clear: both;
 }
+
+input {
+outline: none;
+}
