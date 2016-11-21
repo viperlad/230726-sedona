@@ -181,7 +181,7 @@ height: 432px;
 .container-form {
 	position: absolute;
 	left: 316px;
-	top: 205px
+	top: 205px;
 }
 
 .header-form {
@@ -216,51 +216,54 @@ height: 432px;
 	letter-spacing: 0.02em;
 }
 
-.former label {
-
-}
-
 .former input {
 	height: 37px;
 	background-color: #f2f2f2;
 	border: none;
 	font: inherit;
-	padding-left: 13px;
+}
+
+.former input:hover {
+	background: #ebebeb;
+}
+
+.former input.active {
+	background: none;
+	outline: 2px solid e5e5e5;
 }
 
 .date-in {
 	margin-bottom: 29px;
 }
 .date-in input {
-	margin-left: 18px;
-	width: 332px;
+	margin-left: 15px;
+	width: 330px;
+	padding-left: 16px;
 }
 
 .date-out {
-	margin-bottom: 29px;
+	margin-bottom: 30px;
 }
 
 .date-out input {
-	margin-left: 15px;
-	width: 332px;
+	margin-left: 13px;
+	width: 330px;
+	padding-left: 15px;
 }
 
-.quanity {
-	position: relative;
+
+.btn-up, .btn-down {
+	vertical-align: bottom;
 }
 
 .btn-down {
 	display: inline-block;
 	width: 37px;
 	height: 37px;
-	position: absolute;
 	border: none;
-	z-index: 200;
-	line-height: 37px;
-	right: 76px;
-	top: 1px;
+	line-height: 38px;
 	cursor: pointer;
-	background: no-repeat url("../img/minus.png");
+	background: #f2f2f2 no-repeat url("../img/minus.png");
 	background-position: center;
 }
 
@@ -276,14 +279,12 @@ height: 432px;
 	display: inline-block;
 	width: 37px;
 	height: 37px;
-	position: absolute;
-	z-index: 200;
-	line-height: 37px;
+	line-height: 38px;
 	right: 0px;
 	top: 1px;
 	cursor: pointer;
 	border: none;
-	background: no-repeat url("../img/plus.png");
+	background: #f2f2f2 no-repeat url("../img/plus.png");
 	background-position: center;
 }
 
@@ -295,31 +296,27 @@ height: 432px;
 	background-image: url("../img/plus_down.png");
 }
 
-.growen-ups input {
-	margin-left: 36px;
-	width: 100px;
-	text-align: center;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
+.children {
+	margin-left: 50px;
 }
 
-.children input {
-	margin-left: 25px;
-	width: 100px;
-	text-align: center;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
+.children label {
+	margin-right: 20px;
 }
 
-.growen-ups, .children {
+.quanity input {
+	width: 40px;
+	text-align: center;
+	padding: 0;
+	margin: 0 -4px;
+}
+
+.growen-ups label {
+	margin-right: 35px;
+}
+.quanity {
 	display: inline-block;
 	margin-bottom: 54px;
-}
-
-.children {
-	margin-left: 48px;
 }
 
 .quanity input[type=number]::-webkit-inner-spin-button, .quanity input[type=number]::-webkit-outer-spin-button {
