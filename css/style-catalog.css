@@ -246,6 +246,14 @@ outline: none;
 	background: no-repeat url("../img/catalog/checked.png");
 }
 
+.checkbox:not(checked):disabled + label, .checkbox:not(checked):disabled + label::after{
+	opacity: 0.5;
+}
+
+.checkbox:checked:disabled + label, .checkbox:checked:disabled + label::after{
+	opacity: 0.5;
+}
+
 .infrastructure, .type-of-house {
 	float: left;
 	width: 255px;
