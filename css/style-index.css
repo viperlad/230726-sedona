@@ -227,7 +227,7 @@ height: 432px;
 	background: #ebebeb;
 }
 
-.former input.active {
+.former input:focus {
 	background: none;
 	outline: 2px solid e5e5e5;
 }
