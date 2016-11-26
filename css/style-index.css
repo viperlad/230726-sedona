@@ -40,6 +40,9 @@ section {
 .main-navigation {
   margin: 0 auto;
   height: 56px;
+}
+
+.main-header .container {
   position: relative;
 }
 
@@ -67,6 +70,7 @@ section {
 .header-logo {
   position: absolute;
   left: 531px;
+  z-index: 20;
 }
 
 .main-navigation a {
