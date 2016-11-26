@@ -205,7 +205,7 @@ input {
 }
 
 .intro {
-  background-image: url('../img/1.jpg');
+  background-image: url("../img/1.jpg");
   background-position: 0 -55px;
   padding-top: 76px;
   height: 432px;
